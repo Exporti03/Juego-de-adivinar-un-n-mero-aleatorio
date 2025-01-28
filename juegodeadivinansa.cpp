@@ -1,8 +1,15 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 
 int main() {
-    std::cout<<"Hola mundo";
+
+    int numeroaleatorio;
+
+    numeroaleatorio = (rand() % (100-1) + 1);
+
+    std::cout << "muestran: \n" <<numeroaleatorio;
     
 
     return 0;
